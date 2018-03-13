@@ -11,6 +11,14 @@
         "theme",
         "template"
     ],
+
+
+      "main": "index.html",
+      "scripts": {
+        "start": "node index.html",
+        "test": "node test.js"
+      },
+
     "homepage": "https://startbootstrap.com/template-overviews/freelancer",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
