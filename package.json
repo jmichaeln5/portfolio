@@ -12,11 +12,16 @@
         "template"
     ],
 
+    "scripts": {
+      "start": "node server.js"
+    },
+
     "homepage": "https://startbootstrap.com/template-overviews/freelancer",
     "bugs": {
         "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
         "email": "feedback@startbootstrap.com"
     },
+
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
