@@ -100,8 +100,10 @@
     <section class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+
         <br>
         <br>
+
         <div class="row">
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
@@ -110,13 +112,25 @@
                   <i class="fa fa-search-plus fa-3x"></i>
                 </div>
               </div>
-                <h4 class="text-center"> MyApply</h4>
-              <img class="img-fluid" src="img/portfolio/myapply.jpg" alt="">
-
+                <h4 class="text-center"> Place Saver </h4>
+              <img class="img-fluid" src="img/portfolio/placesaver.jpg" alt="">
             </a>
           </div>
+
           <div class="col-md-6 col-lg-4">
             <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+                <h4 class="text-center"> MyApply</h4>
+              <img class="img-fluid" src="img/portfolio/myapply.jpg" alt="">
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -126,8 +140,9 @@
               <img class="img-fluid" src="img/portfolio/geo-pic.jpg" alt="">
             </a>
           </div>
+
           <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
               <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
                 <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
                   <i class="fa fa-search-plus fa-3x"></i>
@@ -137,8 +152,7 @@
               <img class="img-fluid" src="img/portfolio/torf.jpg" alt="">
             </a>
           </div>
-
-
+        </div>
 
           <!--  -->
           <!--  -->
@@ -342,8 +356,50 @@
 
     <!-- Portfolio Modals -->
 
+
     <!-- Portfolio Modal 1 -->
     <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+<!-- placesaver -->
+
+            <a href="https://placesaver.herokuapp.com/" target="_blank">  <h2 class="text-secondary text-uppercase mb-0"> Place Saver</h2>
+            <h4 class="text-secondary">(Fully Responsive)</h4>
+              </a>
+              <img class="img-fluid mb-5" src="img/portfolio/placesaver.jpg" alt="">
+              <h4 class="mb-5"> <a href="https://placesaver.herokuapp.com/" target="_blank"> Place Saver </a> is a solo a solo project built with JavaScript, the Google Maps API, Ruby, Ruby on Rails, HTML, CSS, Axios HTTP Client, PostgreSQL, Git/Github, RESTful methodolgies, and deployed in production via Heroku.
+              </h4>
+<hr>
+<br>
+            <h4 class="mb-5">
+                <a href="https://placesaver.herokuapp.com/" target="_blank"> Place Saver </a> lets users to upload photos, rate places, and save places address on a map with the Google Map API. It then displays  a photo of the place, the place location on a map regardless if it is stored in Google's database as a "Google Place". Users can view their places in 3 different displays: 3-D Panoramic street view, satellite view, or on a normal map view. User information is stored in a PostgreSQL database. If the user doesn't know the address of the place they'd like to store they can input the title of the place, and if popular enough the API response will still display the location correctly on the map (ex- the Eiffel Tower, Miami Airport, etc.).
+            </h4>
+<hr>
+<br>
+              <h4 class="mb-5">
+              Click <a class="btn btn-primary btn-lg rounded-pill"href="https://placesaver.herokuapp.com/" target="_blank"> Here </a> to Use Place Saver.
+              </h4>
+<hr>
+
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-close"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -379,8 +435,8 @@
     </div>
 
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -419,8 +475,8 @@
       </div>
     </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
       <div class="portfolio-modal-dialog bg-white">
         <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
           <i class="fa fa-3x fa-times"></i>
@@ -430,32 +486,26 @@
             <div class="col-lg-8 mx-auto">
 <!--  Booleans Game Begin-->
 
-<a href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank">  <h2 class="text-secondary text-uppercase mb-0"> Booleans Game </h2>
-</a>
+        <a href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank">  <h2 class="text-secondary text-uppercase mb-0"> Booleans Game </h2>
+        </a>
 
-<img class="img-fluid mb-5" src="img/portfolio/torf.jpg" alt="">
+        <img class="img-fluid mb-5" src="img/portfolio/torf.jpg" alt="">
 
-<h4 class="mb-5"> <a href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank"> True or False </a> Was created with the Ruby language.
-</h4>
-<h4 class="mb-5">
+        <h4 class="mb-5"> <a href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank"> True or False </a> Was created with the Ruby language.
+        </h4>
+        <h4 class="mb-5">
 
-<a href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank"> True or False </a> Tests developer's knowledge of Booleans. How well do you know your Booleans? Click below to find out!
+        <a href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank"> True or False </a> Tests developer's knowledge of Booleans. How well do you know your Booleans? Click below to find out!
 
-</h4>
+        </h4>
 
-<hr>
-<br>
-  <h4 class="mb-5">
-  Click <a class="btn btn-primary btn-lg rounded-pill" href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank"> Here </a> to Play True or False.
-  </h4>
+        <hr>
+        <br>
+          <h4 class="mb-5">
+          Click <a class="btn btn-primary btn-lg rounded-pill" href="https://repl.it/@jmichaeln5/UnrulyAjarDisk" target="_blank"> Here </a> to Play True or False.
+          </h4>
 
-<hr>
-
-
-
-
-
-
+        <hr>
 
 
 <!-- Exit Button -->
